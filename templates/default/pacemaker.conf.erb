@@ -1,0 +1,6 @@
+
+UserParameter=pacemaker.attrs[*],out=$(sudo /var/lib/zabbix/resource_script.sh -i $1); if [ $? -eq 0 ]; then echo "$out"; else echo 0; fi
+UserParameter=pacemaker.eventLog,out=$(sudo /var/lib/zabbix/log_script.sh); if [ $? -eq 0 ]; then echo "$out"; else echo 0; fi
+
+
+

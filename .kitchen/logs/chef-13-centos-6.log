@@ -1,0 +1,82 @@
+I, [2018-07-05T09:12:01.191560 #11648]  INFO -- chef-13-centos-6: -----> Converging <chef-13-centos-6>...
+I, [2018-07-05T09:12:01.191974 #11648]  INFO -- chef-13-centos-6: Preparing files for transfer
+I, [2018-07-05T09:12:01.192076 #11648]  INFO -- chef-13-centos-6: Preparing dna.json
+I, [2018-07-05T09:12:01.192322 #11648]  INFO -- chef-13-centos-6: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2018-07-05T09:12:04.415016 #11648]  INFO -- chef-13-centos-6: Removing non-cookbook files before transfer
+I, [2018-07-05T09:12:04.423503 #11648]  INFO -- chef-13-centos-6: Preparing validation.pem
+I, [2018-07-05T09:12:04.423919 #11648]  INFO -- chef-13-centos-6: Preparing client.rb
+I, [2018-07-05T09:12:04.906235 #11648]  INFO -- chef-13-centos-6: -----> Chef Omnibus installation detected (13)
+I, [2018-07-05T09:12:04.951580 #11648]  INFO -- chef-13-centos-6: Transferring files to <chef-13-centos-6>
+I, [2018-07-05T09:12:11.964581 #11648]  INFO -- chef-13-centos-6: Starting Chef Client, version 13.9.4
+I, [2018-07-05T09:12:13.518142 #11648]  INFO -- chef-13-centos-6: resolving cookbooks for run list: ["cms_sq_sap_hana_rr_cluster_monitoring::default"]
+I, [2018-07-05T09:12:13.849644 #11648]  INFO -- chef-13-centos-6: Synchronizing Cookbooks:
+I, [2018-07-05T09:12:13.850138 #11648]  INFO -- chef-13-centos-6:   - cms_sq_sap_hana_rr_cluster_monitoring (0.1.0)
+I, [2018-07-05T09:12:13.868775 #11648]  INFO -- chef-13-centos-6:   - linuxad_auth (0.4.1)
+I, [2018-07-05T09:12:13.881663 #11648]  INFO -- chef-13-centos-6:   - cron (6.1.1)
+I, [2018-07-05T09:12:13.881761 #11648]  INFO -- chef-13-centos-6:   - windows (4.3.2)
+I, [2018-07-05T09:12:13.884697 #11648]  INFO -- chef-13-centos-6:   - logrotate (2.2.0)
+I, [2018-07-05T09:12:13.912575 #11648]  INFO -- chef-13-centos-6:   - fms-zabbix (0.2.2)
+I, [2018-07-05T09:12:13.912676 #11648]  INFO -- chef-13-centos-6:   - chef-client (10.0.5)
+I, [2018-07-05T09:12:13.912700 #11648]  INFO -- chef-13-centos-6: Installing Cookbook Gems:
+I, [2018-07-05T09:12:13.957014 #11648]  INFO -- chef-13-centos-6: Compiling Cookbooks...
+I, [2018-07-05T09:12:14.093068 #11648]  INFO -- chef-13-centos-6: Converging 6 resources
+I, [2018-07-05T09:12:14.093192 #11648]  INFO -- chef-13-centos-6: 
+I, [2018-07-05T09:12:14.093226 #11648]  INFO -- chef-13-centos-6: Running handlers:
+I, [2018-07-05T09:12:14.093247 #11648]  INFO -- chef-13-centos-6: [2018-07-05T13:12:12+00:00] ERROR: Running exception handlers
+I, [2018-07-05T09:12:14.093267 #11648]  INFO -- chef-13-centos-6: Running handlers complete
+I, [2018-07-05T09:12:14.093285 #11648]  INFO -- chef-13-centos-6: [2018-07-05T13:12:12+00:00] ERROR: Exception handlers complete
+I, [2018-07-05T09:12:14.093348 #11648]  INFO -- chef-13-centos-6: Chef Client failed. 0 resources updated in 02 seconds
+I, [2018-07-05T09:12:14.093382 #11648]  INFO -- chef-13-centos-6: [2018-07-05T13:12:12+00:00] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2018-07-05T09:12:14.093402 #11648]  INFO -- chef-13-centos-6: [2018-07-05T13:12:12+00:00] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2018-07-05T09:12:14.093422 #11648]  INFO -- chef-13-centos-6: [2018-07-05T13:12:12+00:00] ERROR: resource cookbook_file[/var/lib/zabbix/resource_script.sh] is configured to notify resource service[zabbix-agent] with action restart, but service[zabbix-agent] cannot be found in the resource collection. cookbook_file[/var/lib/zabbix/resource_script.sh] is defined in /tmp/kitchen/cache/cookbooks/cms_sq_sap_hana_rr_cluster_monitoring/recipes/default.rb:17:in `block in from_file'
+I, [2018-07-05T09:12:14.093441 #11648]  INFO -- chef-13-centos-6: 
+I, [2018-07-05T09:12:14.123167 #11648]  INFO -- chef-13-centos-6: [2018-07-05T13:12:12+00:00] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2018-07-05T09:12:14.162866 #11648] ERROR -- chef-13-centos-6: Converge failed on instance <chef-13-centos-6>.
+E, [2018-07-05T09:12:14.163017 #11648] ERROR -- chef-13-centos-6: ------Exception-------
+E, [2018-07-05T09:12:14.163047 #11648] ERROR -- chef-13-centos-6: Class: Kitchen::ActionFailed
+E, [2018-07-05T09:12:14.163074 #11648] ERROR -- chef-13-centos-6: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-07-05T09:12:14.163092 #11648] ERROR -- chef-13-centos-6: ----------------------
+E, [2018-07-05T09:12:14.163124 #11648] ERROR -- chef-13-centos-6: ------Backtrace-------
+E, [2018-07-05T09:12:14.163139 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-07-05T09:12:14.163153 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-07-05T09:12:14.163166 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-07-05T09:12:14.163180 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-07-05T09:12:14.163192 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-07-05T09:12:14.163205 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-07-05T09:12:14.163218 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-07-05T09:12:14.163231 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-07-05T09:12:14.163244 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-07-05T09:12:14.163257 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-07-05T09:12:14.163270 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-07-05T09:12:14.163283 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-07-05T09:12:14.163295 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-07-05T09:12:14.163308 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-07-05T09:12:14.163321 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-07-05T09:12:14.163334 #11648] ERROR -- chef-13-centos-6: ----End Backtrace-----
+E, [2018-07-05T09:12:14.163346 #11648] ERROR -- chef-13-centos-6: ---Nested Exception---
+E, [2018-07-05T09:12:14.163359 #11648] ERROR -- chef-13-centos-6: Class: Kitchen::Transport::SshFailed
+E, [2018-07-05T09:12:14.163371 #11648] ERROR -- chef-13-centos-6: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-07-05T09:12:14.163385 #11648] ERROR -- chef-13-centos-6: ----------------------
+E, [2018-07-05T09:12:14.163397 #11648] ERROR -- chef-13-centos-6: ------Backtrace-------
+E, [2018-07-05T09:12:14.163410 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-07-05T09:12:14.163429 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-07-05T09:12:14.163443 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-07-05T09:12:14.163457 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-07-05T09:12:14.163470 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-07-05T09:12:14.163483 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-07-05T09:12:14.163497 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-07-05T09:12:14.163510 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-07-05T09:12:14.163580 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-07-05T09:12:14.163599 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-07-05T09:12:14.163614 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-07-05T09:12:14.163628 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-07-05T09:12:14.163642 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-07-05T09:12:14.163657 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-07-05T09:12:14.163671 #11648] ERROR -- chef-13-centos-6: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-07-05T09:12:14.163685 #11648] ERROR -- chef-13-centos-6: ----End Backtrace-----

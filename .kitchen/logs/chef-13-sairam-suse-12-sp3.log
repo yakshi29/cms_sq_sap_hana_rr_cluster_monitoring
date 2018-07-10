@@ -1,0 +1,544 @@
+I, [2018-07-06T01:18:07.406932 #22644]  INFO -- chef-13-sairam-suse-12-sp3: -----> Converging <chef-13-sairam-suse-12-sp3>...
+I, [2018-07-06T01:18:07.410380 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Preparing files for transfer
+I, [2018-07-06T01:18:07.410503 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Preparing dna.json
+I, [2018-07-06T01:18:07.410738 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Resolving cookbook dependencies with Berkshelf 6.3.1...
+I, [2018-07-06T01:18:10.131949 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Removing non-cookbook files before transfer
+I, [2018-07-06T01:18:10.139371 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Preparing validation.pem
+I, [2018-07-06T01:18:10.139667 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Preparing client.rb
+I, [2018-07-06T01:18:10.416371 #22644]  INFO -- chef-13-sairam-suse-12-sp3: -----> Installing Chef Omnibus (13)
+I, [2018-07-06T01:18:10.416597 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-07-06T01:18:10.416644 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Trying wget...
+I, [2018-07-06T01:18:10.775822 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Download complete.
+I, [2018-07-06T01:18:10.807276 #22644]  INFO -- chef-13-sairam-suse-12-sp3: sles 12 x86_64
+I, [2018-07-06T01:18:10.807371 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Getting information for chef stable 13 for sles...
+I, [2018-07-06T01:18:10.807409 #22644]  INFO -- chef-13-sairam-suse-12-sp3: downloading https://omnitruck.chef.io/stable/chef/metadata?v=13&p=sles&pv=12&m=x86_64
+I, [2018-07-06T01:18:10.807431 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   to file /tmp/install.sh.4506/metadata.txt
+I, [2018-07-06T01:18:10.807603 #22644]  INFO -- chef-13-sairam-suse-12-sp3: trying wget...
+I, [2018-07-06T01:18:11.114245 #22644]  INFO -- chef-13-sairam-suse-12-sp3: sha1	9f2b34993131f4333d10b607cbdaaea337fbbdc6
+I, [2018-07-06T01:18:11.114340 #22644]  INFO -- chef-13-sairam-suse-12-sp3: sha256	c856fddb8a0f6e86487d74d23013b5a002cfbe918266ca94125592580b3c8a68
+I, [2018-07-06T01:18:11.114365 #22644]  INFO -- chef-13-sairam-suse-12-sp3: url	https://packages.chef.io/files/stable/chef/13.9.4/sles/12/chef-13.9.4-1.sles12.x86_64.rpm
+I, [2018-07-06T01:18:11.114812 #22644]  INFO -- chef-13-sairam-suse-12-sp3: version	13.9.4
+I, [2018-07-06T01:18:11.117209 #22644]  INFO -- chef-13-sairam-suse-12-sp3: downloaded metadata file looks valid...
+I, [2018-07-06T01:18:11.131732 #22644]  INFO -- chef-13-sairam-suse-12-sp3: downloading https://packages.chef.io/files/stable/chef/13.9.4/sles/12/chef-13.9.4-1.sles12.x86_64.rpm
+I, [2018-07-06T01:18:11.131825 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   to file /tmp/install.sh.4506/chef-13.9.4-1.sles12.x86_64.rpm
+I, [2018-07-06T01:18:11.131976 #22644]  INFO -- chef-13-sairam-suse-12-sp3: trying wget...
+I, [2018-07-06T01:18:18.806449 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Comparing checksum with sha256sum...
+I, [2018-07-06T01:18:19.141241 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Installing chef 13
+I, [2018-07-06T01:18:19.141329 #22644]  INFO -- chef-13-sairam-suse-12-sp3: installing with rpm...
+I, [2018-07-06T01:18:19.174910 #22644]  INFO -- chef-13-sairam-suse-12-sp3: warning: /tmp/install.sh.4506/chef-13.9.4-1.sles12.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2018-07-06T01:18:44.911808 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2018-07-06T01:18:44.930404 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Updating / installing...
+I, [2018-07-06T01:18:52.684670 #22644]  INFO -- chef-13-sairam-suse-12-sp3:    1:chef-13.9.4-1.sles12                                               (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2018-07-06T01:18:53.471242 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Thank you for installing Chef!
+I, [2018-07-06T01:18:53.528204 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Transferring files to <chef-13-sairam-suse-12-sp3>
+I, [2018-07-06T01:19:03.922182 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Starting Chef Client, version 13.9.4
+I, [2018-07-06T01:19:08.005674 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Creating a new client identity for chef-13-sairam-suse-12-sp3 using the validator key.
+I, [2018-07-06T01:19:08.112164 #22644]  INFO -- chef-13-sairam-suse-12-sp3: resolving cookbooks for run list: ["fms-zabbix::default", "cms_sq_sap_hana_rr_cluster_monitoring::default"]
+I, [2018-07-06T01:19:08.438746 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Synchronizing Cookbooks:
+I, [2018-07-06T01:19:08.531016 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   - cms_sq_sap_hana_rr_cluster_monitoring (0.1.0)
+I, [2018-07-06T01:19:08.561440 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   - fms-zabbix (0.3.3)
+I, [2018-07-06T01:19:08.582141 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   - linuxad_auth (0.4.1)
+I, [2018-07-06T01:19:08.652503 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   - logrotate (2.2.0)
+I, [2018-07-06T01:19:08.656230 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   - chef-client (10.0.5)
+I, [2018-07-06T01:19:08.660986 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   - cron (6.1.1)
+I, [2018-07-06T01:19:08.663091 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   - windows (4.3.3)
+I, [2018-07-06T01:19:08.682465 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Installing Cookbook Gems:
+I, [2018-07-06T01:19:08.723517 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Compiling Cookbooks...
+I, [2018-07-06T01:19:08.861552 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Converging 15 resources
+I, [2018-07-06T01:19:08.862737 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Recipe: fms-zabbix::install_linux
+I, [2018-07-06T01:19:11.699597 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * rpm_package[zabbix-agent] action install
+I, [2018-07-06T01:19:11.699695 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - install version 2.2.21-1.1 of package zabbix-agent-2.2
+I, [2018-07-06T01:19:11.699904 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * directory[/etc/zabbix/zabbix_agentd.d] action create
+I, [2018-07-06T01:19:11.700162 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - create new directory /etc/zabbix/zabbix_agentd.d
+I, [2018-07-06T01:19:11.700731 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change mode from '' to '0755'
+I, [2018-07-06T01:19:11.700990 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change owner from '' to 'root'
+I, [2018-07-06T01:19:11.702033 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change group from '' to 'root'
+I, [2018-07-06T01:19:11.745141 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * template[/etc/zabbix/zabbix-agentd.conf] action create
+I, [2018-07-06T01:19:11.745720 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - update content in file /etc/zabbix/zabbix-agentd.conf from 960b7e to 5c2041
+I, [2018-07-06T01:19:11.746167 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     --- /etc/zabbix/zabbix-agentd.conf	2017-12-30 04:57:56.000000000 +0530
+I, [2018-07-06T01:19:11.746555 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +++ /etc/zabbix/.chef-zabbix-agentd20180706-4750-1xmjyxv.conf	2018-07-06 10:49:38.047616991 +0530
+I, [2018-07-06T01:19:11.767207 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     @@ -1,285 +1,17 @@
+I, [2018-07-06T01:19:11.767324 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# This is a config file for the Zabbix agent daemon (Unix)
+I, [2018-07-06T01:19:11.767370 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# To get more information about Zabbix, visit http://www.zabbix.com
+I, [2018-07-06T01:19:11.767414 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.767451 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -############ GENERAL PARAMETERS #################
+I, [2018-07-06T01:19:11.767483 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.767514 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: PidFile
+I, [2018-07-06T01:19:11.767547 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Name of PID file.
+I, [2018-07-06T01:19:11.767574 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.767602 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.767626 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.767652 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -PidFile=/run/zabbix/zabbix-agentd.pid
+I, [2018-07-06T01:19:11.767680 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.767708 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: LogFile
+I, [2018-07-06T01:19:11.767746 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Name of log file.
+I, [2018-07-06T01:19:11.767779 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	If not set, syslog is used.
+I, [2018-07-06T01:19:11.767807 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.767834 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.767861 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.767888 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# LogFile=
+I, [2018-07-06T01:19:11.767915 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.767947 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -LogFile=/var/log/zabbix/zabbix-agentd.log
+I, [2018-07-06T01:19:11.767976 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.768003 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: LogFileSize
+I, [2018-07-06T01:19:11.768033 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Maximum size of log file in MB.
+I, [2018-07-06T01:19:11.768063 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	0 - disable automatic log rotation.
+I, [2018-07-06T01:19:11.768087 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.768131 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.768159 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 0-1024
+I, [2018-07-06T01:19:11.768187 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.768216 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# LogFileSize=1
+I, [2018-07-06T01:19:11.768245 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.768274 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: DebugLevel
+I, [2018-07-06T01:19:11.768314 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Specifies debug level
+I, [2018-07-06T01:19:11.768343 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	0 - no debug
+I, [2018-07-06T01:19:11.768374 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	1 - critical information
+I, [2018-07-06T01:19:11.768404 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	2 - error information
+I, [2018-07-06T01:19:11.768431 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	3 - warnings
+I, [2018-07-06T01:19:11.768474 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	4 - for debugging (produces lots of information)
+I, [2018-07-06T01:19:11.768505 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.768533 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.768561 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 0-4
+I, [2018-07-06T01:19:11.771301 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.771359 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# DebugLevel=3
+I, [2018-07-06T01:19:11.771398 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.771429 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: SourceIP
+I, [2018-07-06T01:19:11.771457 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Source IP address for outgoing connections.
+I, [2018-07-06T01:19:11.771504 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.771535 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.771561 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.771588 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# SourceIP=
+I, [2018-07-06T01:19:11.771618 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.771650 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: EnableRemoteCommands
+I, [2018-07-06T01:19:11.771681 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Whether remote commands from Zabbix server are allowed.
+I, [2018-07-06T01:19:11.771715 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	0 - not allowed
+I, [2018-07-06T01:19:11.771745 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	1 - allowed
+I, [2018-07-06T01:19:11.771776 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.771805 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.771835 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.771867 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# EnableRemoteCommands=0
+I, [2018-07-06T01:19:11.771898 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.771928 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: LogRemoteCommands
+I, [2018-07-06T01:19:11.771959 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Enable logging of executed shell commands as warnings.
+I, [2018-07-06T01:19:11.771991 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	0 - disabled
+I, [2018-07-06T01:19:11.772021 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	1 - enabled
+I, [2018-07-06T01:19:11.772051 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.772085 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.772134 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.772172 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# LogRemoteCommands=0
+I, [2018-07-06T01:19:11.772203 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.772239 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -##### Passive checks related
+I, [2018-07-06T01:19:11.772272 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.772300 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: Server
+I, [2018-07-06T01:19:11.772327 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	List of comma delimited IP addresses (or hostnames) of Zabbix servers.
+I, [2018-07-06T01:19:11.772359 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Incoming connections will be accepted only from the hosts listed here.
+I, [2018-07-06T01:19:11.772406 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	If IPv6 support is enabled then '127.0.0.1', '::127.0.0.1', '::ffff:127.0.0.1' are treated equally.
+I, [2018-07-06T01:19:11.772440 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.772472 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.772516 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.772548 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Server=
+I, [2018-07-06T01:19:11.772580 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.772612 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +PidFile=/var/run/zabbix/zabbix_agentd.pid
+I, [2018-07-06T01:19:11.772644 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +LogFile=/var/log/zabbix/zabbix_agentd.log
+I, [2018-07-06T01:19:11.772885 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +LogFileSize=0
+I, [2018-07-06T01:19:11.772939 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      Server=127.0.0.1
+I, [2018-07-06T01:19:11.772971 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.773004 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: ListenPort
+I, [2018-07-06T01:19:11.773037 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Agent will listen on this port for connections from the server.
+I, [2018-07-06T01:19:11.773068 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.773113 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.773152 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 1024-32767
+I, [2018-07-06T01:19:11.773188 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.773221 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# ListenPort=10050
+I, [2018-07-06T01:19:11.773248 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.773283 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: ListenIP
+I, [2018-07-06T01:19:11.773316 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	List of comma delimited IP addresses that the agent should listen on.
+I, [2018-07-06T01:19:11.773349 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	First IP address is sent to Zabbix server if connecting to it to retrieve list of active checks.
+I, [2018-07-06T01:19:11.773379 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.773409 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.773442 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.773472 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# ListenIP=0.0.0.0
+I, [2018-07-06T01:19:11.773506 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.773543 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: StartAgents
+I, [2018-07-06T01:19:11.773577 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Number of pre-forked instances of zabbix_agentd that process passive checks.
+I, [2018-07-06T01:19:11.773607 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	If set to 0, disables passive checks and the agent will not listen on any TCP port.
+I, [2018-07-06T01:19:11.773641 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.773671 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.773700 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 0-100
+I, [2018-07-06T01:19:11.773730 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.773761 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# StartAgents=3
+I, [2018-07-06T01:19:11.773793 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.773825 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -##### Active checks related
+I, [2018-07-06T01:19:11.773855 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.773885 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: ServerActive
+I, [2018-07-06T01:19:11.773912 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	List of comma delimited IP:port (or hostname:port) pairs of Zabbix servers for active checks.
+I, [2018-07-06T01:19:11.773942 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	If port is not specified, default port is used.
+I, [2018-07-06T01:19:11.773983 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	IPv6 addresses must be enclosed in square brackets if port for that host is specified.
+I, [2018-07-06T01:19:11.774016 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	If port is not specified, square brackets for IPv6 addresses are optional.
+I, [2018-07-06T01:19:11.774049 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	If this parameter is not specified, active checks are disabled.
+I, [2018-07-06T01:19:11.774080 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Example: ServerActive=127.0.0.1:20051,zabbix.domain,[::1]:30051,::1,[12fc::1]
+I, [2018-07-06T01:19:11.774128 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.774165 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.774204 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.774241 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# ServerActive=
+I, [2018-07-06T01:19:11.774273 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.774300 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      ServerActive=127.0.0.1
+I, [2018-07-06T01:19:11.774327 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.774354 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: Hostname
+I, [2018-07-06T01:19:11.774381 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Unique, case sensitive hostname.
+I, [2018-07-06T01:19:11.774409 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Required for active checks and must match hostname as configured on the server.
+I, [2018-07-06T01:19:11.774441 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Value is acquired from HostnameItem if undefined.
+I, [2018-07-06T01:19:11.774471 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.774500 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.774529 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.774558 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Hostname=
+I, [2018-07-06T01:19:11.774586 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.774620 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -Hostname=Zabbix server
+I, [2018-07-06T01:19:11.774665 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.774695 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: HostnameItem
+I, [2018-07-06T01:19:11.774725 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Item used for generating Hostname if it is undefined. Ignored if Hostname is defined.
+I, [2018-07-06T01:19:11.774758 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Does not support UserParameters or aliases.
+I, [2018-07-06T01:19:11.774787 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.774811 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.774839 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.774870 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# HostnameItem=system.hostname
+I, [2018-07-06T01:19:11.774895 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.774920 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: HostMetadata
+I, [2018-07-06T01:19:11.774946 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Optional parameter that defines host metadata.
+I, [2018-07-06T01:19:11.774971 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Host metadata is used at host auto-registration process.
+I, [2018-07-06T01:19:11.774998 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	An agent will issue an error and not start if the value is over limit of 255 characters.
+I, [2018-07-06T01:19:11.775027 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	If not defined, value will be acquired from HostMetadataItem.
+I, [2018-07-06T01:19:11.775056 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.775092 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.775141 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 0-255 characters
+I, [2018-07-06T01:19:11.775174 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.775203 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# HostMetadata=
+I, [2018-07-06T01:19:11.775231 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.775260 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: HostMetadataItem
+I, [2018-07-06T01:19:11.775289 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Optional parameter that defines an item used for getting host metadata.
+I, [2018-07-06T01:19:11.775318 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Host metadata is used at host auto-registration process.
+I, [2018-07-06T01:19:11.775349 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	During an auto-registration request an agent will log a warning message if
+I, [2018-07-06T01:19:11.775380 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	the value returned by specified item is over limit of 255 characters.
+I, [2018-07-06T01:19:11.785192 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	This option is only used when HostMetadata is not defined.
+I, [2018-07-06T01:19:11.785259 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.785282 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.785300 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.785317 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# HostMetadataItem=
+I, [2018-07-06T01:19:11.785333 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.785350 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: RefreshActiveChecks
+I, [2018-07-06T01:19:11.785366 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	How often list of active checks is refreshed, in seconds.
+I, [2018-07-06T01:19:11.785383 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.785398 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.785417 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 60-3600
+I, [2018-07-06T01:19:11.785432 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.832561 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# RefreshActiveChecks=120
+I, [2018-07-06T01:19:11.832662 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.832691 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: BufferSend
+I, [2018-07-06T01:19:11.832723 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Do not keep data longer than N seconds in buffer.
+I, [2018-07-06T01:19:11.832744 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.832764 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.832782 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 1-3600
+I, [2018-07-06T01:19:11.832802 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.832827 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# BufferSend=5
+I, [2018-07-06T01:19:11.832845 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.832867 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: BufferSize
+I, [2018-07-06T01:19:11.832886 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Maximum number of values in a memory buffer. The agent will send
+I, [2018-07-06T01:19:11.832915 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	all collected data to Zabbix Server or Proxy if the buffer is full.
+I, [2018-07-06T01:19:11.832938 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.832956 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.832974 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 2-65535
+I, [2018-07-06T01:19:11.832991 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.833022 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# BufferSize=100
+I, [2018-07-06T01:19:11.833042 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.833075 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: MaxLinesPerSecond
+I, [2018-07-06T01:19:11.833128 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Maximum number of new lines the agent will send per second to Zabbix Server
+I, [2018-07-06T01:19:11.833152 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	or Proxy processing 'log' and 'logrt' active checks.
+I, [2018-07-06T01:19:11.833173 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	The provided value will be overridden by the parameter 'maxlines',
+I, [2018-07-06T01:19:11.833192 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	provided in 'log' or 'logrt' item keys.
+I, [2018-07-06T01:19:11.833209 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.833227 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.833243 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 1-1000
+I, [2018-07-06T01:19:11.833261 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.833280 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# MaxLinesPerSecond=100
+I, [2018-07-06T01:19:11.833312 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.833346 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -############ ADVANCED PARAMETERS #################
+I, [2018-07-06T01:19:11.833368 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.833387 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: Alias
+I, [2018-07-06T01:19:11.833409 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Sets an alias for an item key. It can be used to substitute long and complex item key with a smaller and simpler one.
+I, [2018-07-06T01:19:11.833441 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Multiple Alias parameters may be present. Multiple parameters with the same Alias key are not allowed.
+I, [2018-07-06T01:19:11.833463 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Different Alias keys may reference the same item key.
+I, [2018-07-06T01:19:11.833481 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	For example, to retrieve the ID of user 'zabbix':
+I, [2018-07-06T01:19:11.833506 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Alias=zabbix.userid:vfs.file.regexp[/etc/passwd,^zabbix:.:([0-9]+),,,,\1]
+I, [2018-07-06T01:19:11.833535 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Now shorthand key zabbix.userid may be used to retrieve data.
+I, [2018-07-06T01:19:11.833555 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Aliases can be used in HostMetadataItem but not in HostnameItem parameters.
+I, [2018-07-06T01:19:11.833573 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.833599 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.833625 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range:
+I, [2018-07-06T01:19:11.833642 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.833663 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.833692 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: Timeout
+I, [2018-07-06T01:19:11.833716 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Spend no more than Timeout seconds on processing
+I, [2018-07-06T01:19:11.833734 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.833751 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.833778 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 1-30
+I, [2018-07-06T01:19:11.833801 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.833819 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Timeout=3
+I, [2018-07-06T01:19:11.833835 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.833868 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: AllowRoot
+I, [2018-07-06T01:19:11.833893 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Allow the agent to run as 'root'. If disabled and the agent is started by 'root', the agent
+I, [2018-07-06T01:19:11.833913 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	will try to switch to user 'zabbix' instead. Has no effect if started under a regular user.
+I, [2018-07-06T01:19:11.833932 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	0 - do not allow
+I, [2018-07-06T01:19:11.833962 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	1 - allow
+I, [2018-07-06T01:19:11.833986 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.834005 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.834023 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.834065 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# AllowRoot=0
+I, [2018-07-06T01:19:11.834106 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.834131 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: Include
+I, [2018-07-06T01:19:11.834163 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	You may include individual files or all files in a directory in the configuration file.
+I, [2018-07-06T01:19:11.834195 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Installing Zabbix will create include directory in /usr/local/etc, unless modified during the compile time.
+I, [2018-07-06T01:19:11.834213 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.834231 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.834249 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.834278 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Include=
+I, [2018-07-06T01:19:11.834299 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.834316 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Include=/usr/local/etc/zabbix-agentd.userparams.conf
+I, [2018-07-06T01:19:11.834335 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Include=/usr/local/etc/zabbix-agentd.conf.d/
+I, [2018-07-06T01:19:11.834366 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.834395 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -####### USER-DEFINED MONITORED PARAMETERS #######
+I, [2018-07-06T01:19:11.834421 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.834439 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: UnsafeUserParameters
+I, [2018-07-06T01:19:11.834457 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Allow all characters to be passed in arguments to user-defined parameters.
+I, [2018-07-06T01:19:11.834489 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	0 - do not allow
+I, [2018-07-06T01:19:11.834514 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	1 - allow
+I, [2018-07-06T01:19:11.834531 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.834547 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.834572 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Range: 0-1
+I, [2018-07-06T01:19:11.834598 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.834618 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# UnsafeUserParameters=0
+I, [2018-07-06T01:19:11.834634 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.834651 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: UserParameter
+I, [2018-07-06T01:19:11.834668 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	User-defined parameter to monitor. There can be several user-defined parameters.
+I, [2018-07-06T01:19:11.834686 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Format: UserParameter=<key>,<shell command>
+I, [2018-07-06T01:19:11.834703 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	See 'zabbix_agentd' directory for examples.
+I, [2018-07-06T01:19:11.834727 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.834744 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.834766 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.834793 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# UserParameter=
+I, [2018-07-06T01:19:11.834810 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.834825 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -####### LOADABLE MODULES #######
+I, [2018-07-06T01:19:11.834841 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.834870 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: LoadModulePath
+I, [2018-07-06T01:19:11.834890 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Full path to location of agent modules.
+I, [2018-07-06T01:19:11.834909 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Default depends on compilation options.
+I, [2018-07-06T01:19:11.834925 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.834952 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.834974 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.834990 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# LoadModulePath=${libdir}/modules
+I, [2018-07-06T01:19:11.835017 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -
+I, [2018-07-06T01:19:11.835036 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -### Option: LoadModule
+I, [2018-07-06T01:19:11.835053 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Module to load at agent startup. Modules are used to extend functionality of the agent.
+I, [2018-07-06T01:19:11.835069 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	Format: LoadModule=<module.so>
+I, [2018-07-06T01:19:11.835107 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	The modules must be located in directory specified by LoadModulePath.
+I, [2018-07-06T01:19:11.835135 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#	It is allowed to include multiple LoadModule parameters.
+I, [2018-07-06T01:19:11.835152 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -#
+I, [2018-07-06T01:19:11.835178 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-06T01:19:11.835205 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-06T01:19:11.835221 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     -# LoadModule=
+I, [2018-07-06T01:19:11.835238 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +Hostname=chef-13-sairam-suse-12-sp3.imzcloud.ibmammsap.local
+I, [2018-07-06T01:19:11.835264 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +Include=/etc/zabbix/zabbix_agentd.d/
+I, [2018-07-06T01:19:11.835288 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +HostMetadataItem=system.uname  
+I, [2018-07-06T01:19:11.835304 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +EnableRemoteCommands=1 
+I, [2018-07-06T01:19:11.835319 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +Timeout=30
+I, [2018-07-06T01:19:11.836904 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +# IP addresses of specified interface name
+I, [2018-07-06T01:19:11.836954 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +UserParameter=ip.address[*],ip a | egrep "inet.*$1" | cut -f1 -d '/' | cut -d ' ' -f6
+I, [2018-07-06T01:19:11.836991 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +# Host info
+I, [2018-07-06T01:19:11.837017 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +UserParameter=data.center, echo "DAL09"
+I, [2018-07-06T01:19:11.837036 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +UserParameter=cust.name, echo "Infrastructure Servers"
+I, [2018-07-06T01:19:11.837054 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +UserParameter=cust.code, echo "chefzero://localhost:1"
+I, [2018-07-06T01:19:11.837084 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change mode from '0640' to '0644'
+I, [2018-07-06T01:19:11.837124 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change group from 'zabbix' to 'root'
+I, [2018-07-06T01:19:12.014751 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * service[zabbix-agent] action enable
+I, [2018-07-06T01:19:12.014832 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - enable service service[zabbix-agent]
+I, [2018-07-06T01:19:12.142643 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * service[zabbix-agent] action start
+I, [2018-07-06T01:19:12.142730 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - start service service[zabbix-agent]
+I, [2018-07-06T01:19:12.142755 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Recipe: fms-zabbix::install_plugins
+I, [2018-07-06T01:19:12.142773 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * directory[/var/lib/zabbix] action create
+I, [2018-07-06T01:19:12.142792 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - create new directory /var/lib/zabbix
+I, [2018-07-06T01:19:12.142809 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change mode from '' to '0755'
+I, [2018-07-06T01:19:12.142825 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change owner from '' to 'zabbix'
+I, [2018-07-06T01:19:12.144372 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change group from '' to 'zabbix'
+I, [2018-07-06T01:19:12.147247 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * cookbook_file[/var/lib/zabbix/check_rw_mounts.sh] action create
+I, [2018-07-06T01:19:12.152572 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - create new file /var/lib/zabbix/check_rw_mounts.sh
+I, [2018-07-06T01:19:12.152852 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - update content in file /var/lib/zabbix/check_rw_mounts.sh from none to 82ad8c
+I, [2018-07-06T01:19:12.153088 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     --- /var/lib/zabbix/check_rw_mounts.sh	2018-07-06 10:49:38.487396991 +0530
+I, [2018-07-06T01:19:12.153328 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +++ /var/lib/zabbix/.chef-check_rw_mounts20180706-4750-1x7psty.sh	2018-07-06 10:49:38.487396991 +0530
+I, [2018-07-06T01:19:12.153522 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     @@ -1 +1,49 @@
+I, [2018-07-06T01:19:12.156969 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +#!/bin/bash
+I, [2018-07-06T01:19:12.161077 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +
+I, [2018-07-06T01:19:12.161148 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +filesystems=""
+I, [2018-07-06T01:19:12.161175 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +
+I, [2018-07-06T01:19:12.161203 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +while read dev fs fs_type _options _1 _2
+I, [2018-07-06T01:19:12.161225 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +do
+I, [2018-07-06T01:19:12.161246 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  iso_mount=`mount | egrep '*.iso' | awk -F ' ' '{print $3}'`
+I, [2018-07-06T01:19:12.161265 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  solman=`mount | grep 146.89.14 | awk -F ' ' '{print $3}'`
+I, [2018-07-06T01:19:12.161283 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  exclude_list=(
+I, [2018-07-06T01:19:12.161300 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	proc
+I, [2018-07-06T01:19:12.161316 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	sys
+I, [2018-07-06T01:19:12.161332 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	dev
+I, [2018-07-06T01:19:12.161354 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	dev/pts
+I, [2018-07-06T01:19:12.161373 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	dev/shm
+I, [2018-07-06T01:19:12.161389 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	proc/bus/usb
+I, [2018-07-06T01:19:12.161405 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	proc/sys/fs/binfmt_misc
+I, [2018-07-06T01:19:12.161421 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	proc/xen
+I, [2018-07-06T01:19:12.161438 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	var/lib/nfs/rpc_pipefs
+I, [2018-07-06T01:19:12.161454 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	selinux
+I, [2018-07-06T01:19:12.161470 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	misc
+I, [2018-07-06T01:19:12.161485 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	net
+I, [2018-07-06T01:19:12.161521 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	Staging/sapsft
+I, [2018-07-06T01:19:12.161551 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	root/.gvfs
+I, [2018-07-06T01:19:12.161567 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	storage
+I, [2018-07-06T01:19:12.161586 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	storage/library
+I, [2018-07-06T01:19:12.161622 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	SDS
+I, [2018-07-06T01:19:12.161682 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	sds
+I, [2018-07-06T01:19:12.161716 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	cgroup
+I, [2018-07-06T01:19:12.161746 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	SAP_DATA
+I, [2018-07-06T01:19:12.161767 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	$iso_mount
+I, [2018-07-06T01:19:12.161783 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +	$solman
+I, [2018-07-06T01:19:12.161807 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  )
+I, [2018-07-06T01:19:12.161827 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  pattern=$(echo ${exclude_list[@]}|tr " " "|")
+I, [2018-07-06T01:19:12.161849 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  if echo $fs | egrep -q -v /"$pattern" ; then
+I, [2018-07-06T01:19:12.161876 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +    timeout 300 touch ${fs}/testfile > /dev/null 2>&1
+I, [2018-07-06T01:19:12.161894 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +    if [ $? -ne 0 ]; then
+I, [2018-07-06T01:19:12.161911 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +      filesystems="$filesystems $fs"
+I, [2018-07-06T01:19:12.161927 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +    fi
+I, [2018-07-06T01:19:12.161944 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +    rm -f ${fs}/testfile
+I, [2018-07-06T01:19:12.161969 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  fi
+I, [2018-07-06T01:19:12.161987 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +done < /proc/mounts
+I, [2018-07-06T01:19:12.162004 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +
+I, [2018-07-06T01:19:12.162020 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +if [[ "$filesystems" == "" ]]; then
+I, [2018-07-06T01:19:12.162036 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  echo "OK"
+I, [2018-07-06T01:19:12.162052 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +else
+I, [2018-07-06T01:19:12.162068 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  echo "CRITICAL | $filesystems filesystems are read-only"
+I, [2018-07-06T01:19:12.162085 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +  exit 2
+I, [2018-07-06T01:19:12.162114 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     +fi
+I, [2018-07-06T01:19:12.162134 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change mode from '' to '0755'
+I, [2018-07-06T01:19:12.162150 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change owner from '' to 'root'
+I, [2018-07-06T01:19:12.162167 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - change group from '' to 'root'
+I, [2018-07-06T01:19:12.163003 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * cookbook_file[/var/lib/zabbix/bad_drives.sh] action create (skipped due to only_if)
+I, [2018-07-06T01:19:12.177833 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * cookbook_file[/var/lib/zabbix/media_errors.sh] action create (skipped due to only_if)
+I, [2018-07-06T01:19:12.177940 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * cookbook_file[/root/bmi-diag.sh] action create (skipped due to only_if)
+I, [2018-07-06T01:19:12.177968 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Recipe: cms_sq_sap_hana_rr_cluster_monitoring::default
+I, [2018-07-06T01:19:12.177990 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * template[/etc/zabbix/zabbix.conf.d/pacemaker.conf] action create
+I, [2018-07-06T01:19:12.178011 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     * Parent directory /etc/zabbix/zabbix.conf.d does not exist.
+I, [2018-07-06T01:19:12.178043 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     ================================================================================
+I, [2018-07-06T01:19:12.178078 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     Error executing action `create` on resource 'template[/etc/zabbix/zabbix.conf.d/pacemaker.conf]'
+I, [2018-07-06T01:19:12.178120 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     ================================================================================
+I, [2018-07-06T01:19:12.178148 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     
+I, [2018-07-06T01:19:12.178175 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     Chef::Exceptions::EnclosingDirectoryDoesNotExist
+I, [2018-07-06T01:19:12.178198 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     ------------------------------------------------
+I, [2018-07-06T01:19:12.178217 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     Parent directory /etc/zabbix/zabbix.conf.d does not exist.
+I, [2018-07-06T01:19:12.178235 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     
+I, [2018-07-06T01:19:12.178253 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     Resource Declaration:
+I, [2018-07-06T01:19:12.178272 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     ---------------------
+I, [2018-07-06T01:19:12.178290 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     # In /tmp/kitchen/cache/cookbooks/cms_sq_sap_hana_rr_cluster_monitoring/recipes/default.rb
+I, [2018-07-06T01:19:12.178308 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     
+I, [2018-07-06T01:19:12.178334 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       9: template config_file do
+I, [2018-07-06T01:19:12.178354 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      10:   source 'pacemaker.conf.erb'
+I, [2018-07-06T01:19:12.178374 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      11:   owner  'root'
+I, [2018-07-06T01:19:12.178391 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      12:   group  'root'
+I, [2018-07-06T01:19:12.178409 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      13:   mode   '0644'
+I, [2018-07-06T01:19:12.178428 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      14:   only_if { node['cluster_readiness']['HAcluster'] == 'true' }
+I, [2018-07-06T01:19:12.178462 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      15: end
+I, [2018-07-06T01:19:12.178486 #22644]  INFO -- chef-13-sairam-suse-12-sp3:      16: ['resource_script.sh', 'log_script.sh'].each do |conf_file|
+I, [2018-07-06T01:19:12.178505 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     
+I, [2018-07-06T01:19:12.178522 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     Compiled Resource:
+I, [2018-07-06T01:19:12.178538 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     ------------------
+I, [2018-07-06T01:19:12.178554 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     # Declared in /tmp/kitchen/cache/cookbooks/cms_sq_sap_hana_rr_cluster_monitoring/recipes/default.rb:9:in `from_file'
+I, [2018-07-06T01:19:12.178571 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     
+I, [2018-07-06T01:19:12.178587 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     template("/etc/zabbix/zabbix.conf.d/pacemaker.conf") do
+I, [2018-07-06T01:19:12.178603 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       action [:create]
+I, [2018-07-06T01:19:12.178625 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       default_guard_interpreter :default
+I, [2018-07-06T01:19:12.178646 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       source "pacemaker.conf.erb"
+I, [2018-07-06T01:19:12.178663 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       declared_type :template
+I, [2018-07-06T01:19:12.178679 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       cookbook_name "cms_sq_sap_hana_rr_cluster_monitoring"
+I, [2018-07-06T01:19:12.178695 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       recipe_name "default"
+I, [2018-07-06T01:19:12.178710 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       owner "root"
+I, [2018-07-06T01:19:12.178725 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       group "root"
+I, [2018-07-06T01:19:12.178744 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       mode "0644"
+I, [2018-07-06T01:19:12.178761 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       path "/etc/zabbix/zabbix.conf.d/pacemaker.conf"
+I, [2018-07-06T01:19:12.178785 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       verifications []
+I, [2018-07-06T01:19:12.178813 #22644]  INFO -- chef-13-sairam-suse-12-sp3:       only_if { #code block }
+I, [2018-07-06T01:19:12.178831 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     end
+I, [2018-07-06T01:19:12.178848 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     
+I, [2018-07-06T01:19:12.178864 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     System Info:
+I, [2018-07-06T01:19:12.178880 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     ------------
+I, [2018-07-06T01:19:12.178897 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     chef_version=13.9.4
+I, [2018-07-06T01:19:12.178913 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     platform=suse
+I, [2018-07-06T01:19:12.178936 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     platform_version=12.3
+I, [2018-07-06T01:19:12.178955 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     ruby=ruby 2.4.4p296 (2018-03-28 revision 63013) [x86_64-linux]
+I, [2018-07-06T01:19:12.178972 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     program_name=chef-client worker: ppid=4745;start=10:49:30;
+I, [2018-07-06T01:19:12.178988 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     executable=/opt/chef/bin/chef-client
+I, [2018-07-06T01:19:12.179004 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     
+I, [2018-07-06T01:19:12.179693 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Recipe: fms-zabbix::install_linux
+I, [2018-07-06T01:19:12.302606 #22644]  INFO -- chef-13-sairam-suse-12-sp3:   * service[zabbix-agent] action restart
+I, [2018-07-06T01:19:12.302697 #22644]  INFO -- chef-13-sairam-suse-12-sp3:     - restart service service[zabbix-agent]
+I, [2018-07-06T01:19:12.302722 #22644]  INFO -- chef-13-sairam-suse-12-sp3: 
+I, [2018-07-06T01:19:12.302740 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Running handlers:
+I, [2018-07-06T01:19:12.302758 #22644]  INFO -- chef-13-sairam-suse-12-sp3: [2018-07-06T10:49:38+05:30] ERROR: Running exception handlers
+I, [2018-07-06T01:19:12.302775 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Running handlers complete
+I, [2018-07-06T01:19:12.302792 #22644]  INFO -- chef-13-sairam-suse-12-sp3: [2018-07-06T10:49:38+05:30] ERROR: Exception handlers complete
+I, [2018-07-06T01:19:12.302808 #22644]  INFO -- chef-13-sairam-suse-12-sp3: Chef Client failed. 8 resources updated in 08 seconds
+I, [2018-07-06T01:19:12.302830 #22644]  INFO -- chef-13-sairam-suse-12-sp3: [2018-07-06T10:49:38+05:30] FATAL: Stacktrace dumped to /tmp/kitchen/cache/chef-stacktrace.out
+I, [2018-07-06T01:19:12.302847 #22644]  INFO -- chef-13-sairam-suse-12-sp3: [2018-07-06T10:49:38+05:30] FATAL: Please provide the contents of the stacktrace.out file if you file a bug report
+I, [2018-07-06T01:19:12.302866 #22644]  INFO -- chef-13-sairam-suse-12-sp3: [2018-07-06T10:49:38+05:30] ERROR: template[/etc/zabbix/zabbix.conf.d/pacemaker.conf] (cms_sq_sap_hana_rr_cluster_monitoring::default line 9) had an error: Chef::Exceptions::EnclosingDirectoryDoesNotExist: Parent directory /etc/zabbix/zabbix.conf.d does not exist.
+I, [2018-07-06T01:19:12.338732 #22644]  INFO -- chef-13-sairam-suse-12-sp3: [2018-07-06T10:49:38+05:30] FATAL: Chef::Exceptions::ChildConvergeError: Chef run process exited unsuccessfully (exit code 1)
+E, [2018-07-06T01:19:12.348125 #22644] ERROR -- chef-13-sairam-suse-12-sp3: Converge failed on instance <chef-13-sairam-suse-12-sp3>.
+E, [2018-07-06T01:19:12.348257 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ------Exception-------
+E, [2018-07-06T01:19:12.348281 #22644] ERROR -- chef-13-sairam-suse-12-sp3: Class: Kitchen::ActionFailed
+E, [2018-07-06T01:19:12.348295 #22644] ERROR -- chef-13-sairam-suse-12-sp3: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-07-06T01:19:12.348309 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ----------------------
+E, [2018-07-06T01:19:12.348322 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ------Backtrace-------
+E, [2018-07-06T01:19:12.348347 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-07-06T01:19:12.348363 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-07-06T01:19:12.348376 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-07-06T01:19:12.348389 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-07-06T01:19:12.348402 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-07-06T01:19:12.348415 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-07-06T01:19:12.348429 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-07-06T01:19:12.348442 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-07-06T01:19:12.348455 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-07-06T01:19:12.348468 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-07-06T01:19:12.348481 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-07-06T01:19:12.348494 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-07-06T01:19:12.348507 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-07-06T01:19:12.348519 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-07-06T01:19:12.348533 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-07-06T01:19:12.348546 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ----End Backtrace-----
+E, [2018-07-06T01:19:12.348558 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ---Nested Exception---
+E, [2018-07-06T01:19:12.348571 #22644] ERROR -- chef-13-sairam-suse-12-sp3: Class: Kitchen::Transport::SshFailed
+E, [2018-07-06T01:19:12.348583 #22644] ERROR -- chef-13-sairam-suse-12-sp3: Message: SSH exited (1) for command: [sh -c '
+TEST_KITCHEN="1"; export TEST_KITCHEN
+sudo -E /opt/chef/bin/chef-client --local-mode --config /tmp/kitchen/client.rb --log_level auto --force-formatter --no-color --json-attributes /tmp/kitchen/dna.json --chef-zero-port 8889 
+']
+E, [2018-07-06T01:19:12.348597 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ----------------------
+E, [2018-07-06T01:19:12.348610 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ------Backtrace-------
+E, [2018-07-06T01:19:12.348622 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:83:in `rescue in call'
+E, [2018-07-06T01:19:12.348635 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/provisioner/base.rb:86:in `call'
+E, [2018-07-06T01:19:12.348652 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:393:in `block in converge_action'
+E, [2018-07-06T01:19:12.348666 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:536:in `synchronize_or_call'
+E, [2018-07-06T01:19:12.348681 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:498:in `block in action'
+E, [2018-07-06T01:19:12.348694 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-07-06T01:19:12.348707 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:497:in `action'
+E, [2018-07-06T01:19:12.348720 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:389:in `converge_action'
+E, [2018-07-06T01:19:12.348733 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:368:in `block in transition_to'
+E, [2018-07-06T01:19:12.348745 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `each'
+E, [2018-07-06T01:19:12.348758 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:367:in `transition_to'
+E, [2018-07-06T01:19:12.348771 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/instance.rb:135:in `converge'
+E, [2018-07-06T01:19:12.348795 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `public_send'
+E, [2018-07-06T01:19:12.348808 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:197:in `run_action_in_thread'
+E, [2018-07-06T01:19:12.348821 #22644] ERROR -- chef-13-sairam-suse-12-sp3: /opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/test-kitchen-1.19.2/lib/kitchen/command.rb:169:in `block (2 levels) in run_action'
+E, [2018-07-06T01:19:12.348834 #22644] ERROR -- chef-13-sairam-suse-12-sp3: ----End Backtrace-----

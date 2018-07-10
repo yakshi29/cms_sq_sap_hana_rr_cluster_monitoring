@@ -1,0 +1,477 @@
+W, [2018-07-10T03:50:32.815827 #21841]  WARN -- default-sairam-suse-12-sp3: Deprecated configuration detected:
+require_chef_omnibus
+Run 'kitchen doctor' for details.
+
+I, [2018-07-10T03:50:34.987147 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Cleaning up any prior instances of <default-sairam-suse-12-sp3>
+I, [2018-07-10T03:50:34.987702 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Destroying <default-sairam-suse-12-sp3>...
+I, [2018-07-10T03:50:38.099779 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Forcing shutdown of VM...
+I, [2018-07-10T03:50:39.463739 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Destroying VM and associated drives...
+I, [2018-07-10T03:50:40.077117 #21841]  INFO -- default-sairam-suse-12-sp3: Vagrant instance <default-sairam-suse-12-sp3> destroyed.
+I, [2018-07-10T03:50:40.078157 #21841]  INFO -- default-sairam-suse-12-sp3: Finished destroying <default-sairam-suse-12-sp3> (0m5.09s).
+I, [2018-07-10T03:50:40.078502 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Testing <default-sairam-suse-12-sp3>
+I, [2018-07-10T03:50:40.078644 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Creating <default-sairam-suse-12-sp3>...
+I, [2018-07-10T03:50:41.100187 #21841]  INFO -- default-sairam-suse-12-sp3: Bringing machine 'default' up with 'virtualbox' provider...
+I, [2018-07-10T03:50:41.259336 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Importing base box 'sairam/suse_12_sp3'...
+I, [2018-07-10T03:51:08.084298 #21841]  INFO -- default-sairam-suse-12-sp3: [KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 90%[K==> default: Matching MAC address for NAT networking...
+I, [2018-07-10T03:51:08.268783 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Checking if box 'sairam/suse_12_sp3' is up to date...
+I, [2018-07-10T03:51:09.773390 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Setting the name of the VM: default-sairam-suse-12-sp3_default_1531209069701_58532
+I, [2018-07-10T03:51:10.217448 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Fixed port collision for 22 => 2222. Now on port 2203.
+I, [2018-07-10T03:51:10.320221 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Clearing any previously set network interfaces...
+I, [2018-07-10T03:51:10.410150 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Preparing network interfaces based on configuration...
+I, [2018-07-10T03:51:10.410737 #21841]  INFO -- default-sairam-suse-12-sp3:     default: Adapter 1: nat
+I, [2018-07-10T03:51:10.527175 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Forwarding ports...
+I, [2018-07-10T03:51:10.698337 #21841]  INFO -- default-sairam-suse-12-sp3:     default: 22 (guest) => 2203 (host) (adapter 1)
+I, [2018-07-10T03:51:10.967463 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Booting VM...
+I, [2018-07-10T03:51:11.845462 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Waiting for machine to boot. This may take a few minutes...
+I, [2018-07-10T03:51:12.386977 #21841]  INFO -- default-sairam-suse-12-sp3:     default: SSH address: 127.0.0.1:2203
+I, [2018-07-10T03:51:12.388221 #21841]  INFO -- default-sairam-suse-12-sp3:     default: SSH username: vagrant
+I, [2018-07-10T03:51:12.388592 #21841]  INFO -- default-sairam-suse-12-sp3:     default: SSH auth method: private key
+I, [2018-07-10T03:51:58.598092 #21841]  INFO -- default-sairam-suse-12-sp3:     default: Warning: Connection reset. Retrying...
+I, [2018-07-10T03:52:08.170826 #21841]  INFO -- default-sairam-suse-12-sp3:     default: 
+I, [2018-07-10T03:52:08.170987 #21841]  INFO -- default-sairam-suse-12-sp3:     default: Vagrant insecure key detected. Vagrant will automatically replace
+I, [2018-07-10T03:52:08.171024 #21841]  INFO -- default-sairam-suse-12-sp3:     default: this with a newly generated keypair for better security.
+I, [2018-07-10T03:52:14.849747 #21841]  INFO -- default-sairam-suse-12-sp3:     default: 
+I, [2018-07-10T03:52:14.849846 #21841]  INFO -- default-sairam-suse-12-sp3:     default: Inserting generated public key within guest...
+I, [2018-07-10T03:52:15.595793 #21841]  INFO -- default-sairam-suse-12-sp3:     default: Removing insecure key from the guest if it's present...
+I, [2018-07-10T03:52:16.357632 #21841]  INFO -- default-sairam-suse-12-sp3:     default: Key inserted! Disconnecting and reconnecting using new SSH key...
+I, [2018-07-10T03:52:17.980306 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Machine booted and ready!
+I, [2018-07-10T03:52:17.981601 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Checking for guest additions in VM...
+I, [2018-07-10T03:52:18.123591 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Setting hostname...
+I, [2018-07-10T03:52:18.991685 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Machine not provisioned because `--no-provision` is specified.
+I, [2018-07-10T03:52:20.940885 #21841]  INFO -- default-sairam-suse-12-sp3: [SSH] Established
+I, [2018-07-10T03:52:20.942432 #21841]  INFO -- default-sairam-suse-12-sp3: Vagrant instance <default-sairam-suse-12-sp3> created.
+I, [2018-07-10T03:52:20.943110 #21841]  INFO -- default-sairam-suse-12-sp3: Finished creating <default-sairam-suse-12-sp3> (1m40.86s).
+I, [2018-07-10T03:52:20.943213 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Converging <default-sairam-suse-12-sp3>...
+I, [2018-07-10T03:52:20.944342 #21841]  INFO -- default-sairam-suse-12-sp3: Preparing files for transfer
+I, [2018-07-10T03:52:20.944483 #21841]  INFO -- default-sairam-suse-12-sp3: Preparing dna.json
+I, [2018-07-10T03:52:20.945694 #21841]  INFO -- default-sairam-suse-12-sp3: Resolving cookbook dependencies with Berkshelf 7.0.4...
+I, [2018-07-10T03:52:24.941294 #21841]  INFO -- default-sairam-suse-12-sp3: Removing non-cookbook files before transfer
+I, [2018-07-10T03:52:24.949845 #21841]  INFO -- default-sairam-suse-12-sp3: Preparing validation.pem
+I, [2018-07-10T03:52:24.951850 #21841]  INFO -- default-sairam-suse-12-sp3: Preparing client.rb
+I, [2018-07-10T03:52:25.020777 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Installing Chef Omnibus (13)
+I, [2018-07-10T03:52:25.021025 #21841]  INFO -- default-sairam-suse-12-sp3: Downloading https://omnitruck.chef.io/install.sh to file /tmp/install.sh
+I, [2018-07-10T03:52:25.030932 #21841]  INFO -- default-sairam-suse-12-sp3: Trying wget...
+I, [2018-07-10T03:52:25.590515 #21841]  INFO -- default-sairam-suse-12-sp3: Download complete.
+I, [2018-07-10T03:52:25.629125 #21841]  INFO -- default-sairam-suse-12-sp3: sles 12 x86_64
+I, [2018-07-10T03:52:25.629221 #21841]  INFO -- default-sairam-suse-12-sp3: Getting information for chef stable 13 for sles...
+I, [2018-07-10T03:52:25.629244 #21841]  INFO -- default-sairam-suse-12-sp3: downloading https://omnitruck.chef.io/stable/chef/metadata?v=13&p=sles&pv=12&m=x86_64
+I, [2018-07-10T03:52:25.629261 #21841]  INFO -- default-sairam-suse-12-sp3:   to file /tmp/install.sh.4429/metadata.txt
+I, [2018-07-10T03:52:25.629430 #21841]  INFO -- default-sairam-suse-12-sp3: trying wget...
+I, [2018-07-10T03:52:26.200289 #21841]  INFO -- default-sairam-suse-12-sp3: sha1	9f2b34993131f4333d10b607cbdaaea337fbbdc6
+I, [2018-07-10T03:52:26.200399 #21841]  INFO -- default-sairam-suse-12-sp3: sha256	c856fddb8a0f6e86487d74d23013b5a002cfbe918266ca94125592580b3c8a68
+I, [2018-07-10T03:52:26.200438 #21841]  INFO -- default-sairam-suse-12-sp3: url	https://packages.chef.io/files/stable/chef/13.9.4/sles/12/chef-13.9.4-1.sles12.x86_64.rpm
+I, [2018-07-10T03:52:26.201069 #21841]  INFO -- default-sairam-suse-12-sp3: version	13.9.4
+I, [2018-07-10T03:52:26.203739 #21841]  INFO -- default-sairam-suse-12-sp3: downloaded metadata file looks valid...
+I, [2018-07-10T03:52:26.217112 #21841]  INFO -- default-sairam-suse-12-sp3: downloading https://packages.chef.io/files/stable/chef/13.9.4/sles/12/chef-13.9.4-1.sles12.x86_64.rpm
+I, [2018-07-10T03:52:26.217238 #21841]  INFO -- default-sairam-suse-12-sp3:   to file /tmp/install.sh.4429/chef-13.9.4-1.sles12.x86_64.rpm
+I, [2018-07-10T03:52:26.217513 #21841]  INFO -- default-sairam-suse-12-sp3: trying wget...
+I, [2018-07-10T03:52:35.352663 #21841]  INFO -- default-sairam-suse-12-sp3: Comparing checksum with sha256sum...
+I, [2018-07-10T03:52:35.733123 #21841]  INFO -- default-sairam-suse-12-sp3: Installing chef 13
+I, [2018-07-10T03:52:35.733226 #21841]  INFO -- default-sairam-suse-12-sp3: installing with rpm...
+I, [2018-07-10T03:52:35.755766 #21841]  INFO -- default-sairam-suse-12-sp3: warning: /tmp/install.sh.4429/chef-13.9.4-1.sles12.x86_64.rpm: Header V4 DSA/SHA1 Signature, key ID 83ef826a: NOKEY
+I, [2018-07-10T03:52:37.730672 #21841]  INFO -- default-sairam-suse-12-sp3: Preparing...                                                            (100%)#                                 (100%)##                                (100%)###                               (100%)####                              (100%)#####                             (100%)######                            (100%)#######                           (100%)########                          (100%)#########                         (100%)##########                        (100%)###########                       (100%)############                      (100%)#############                     (100%)##############                    (100%)###############                   (100%)################                  (100%)#################                 (100%)##################                (100%)###################               (100%)####################              (100%)#####################             (100%)######################            (100%)#######################           (100%)########################          (100%)#########################         (100%)##########################        (100%)###########################       (100%)############################      (100%)#############################     (100%)##############################    (100%)###############################   (100%)################################  (100%)################################# (100%)################################# [100%]
+I, [2018-07-10T03:52:37.750263 #21841]  INFO -- default-sairam-suse-12-sp3: Updating / installing...
+I, [2018-07-10T03:52:46.601491 #21841]  INFO -- default-sairam-suse-12-sp3:    1:chef-13.9.4-1.sles12                                               (  1%)#                                 (  4%)##                                (  7%)###                               ( 10%)####                              ( 13%)#####                             ( 16%)######                            ( 19%)#######                           ( 22%)########                          ( 25%)#########                         ( 28%)##########                        ( 31%)###########                       ( 34%)############                      ( 37%)#############                     ( 40%)##############                    ( 43%)###############                   ( 46%)################                  ( 49%)#################                 ( 51%)##################                ( 54%)###################               ( 57%)####################              ( 60%)#####################             ( 63%)######################            ( 66%)#######################           ( 69%)########################          ( 72%)#########################         ( 75%)##########################        ( 78%)###########################       ( 81%)############################      ( 84%)#############################     ( 87%)##############################    ( 90%)###############################   ( 93%)################################  ( 96%)################################# ( 99%)################################# [100%]
+I, [2018-07-10T03:52:47.302036 #21841]  INFO -- default-sairam-suse-12-sp3: Thank you for installing Chef!
+I, [2018-07-10T03:52:47.403591 #21841]  INFO -- default-sairam-suse-12-sp3: Transferring files to <default-sairam-suse-12-sp3>
+I, [2018-07-10T03:52:59.334609 #21841]  INFO -- default-sairam-suse-12-sp3: Starting Chef Client, version 13.9.4
+I, [2018-07-10T03:53:01.709082 #21841]  INFO -- default-sairam-suse-12-sp3: Creating a new client identity for default-sairam-suse-12-sp3 using the validator key.
+I, [2018-07-10T03:53:01.996568 #21841]  INFO -- default-sairam-suse-12-sp3: resolving cookbooks for run list: ["fms-zabbix::default", "cms_sq_sap_hana_rr_cluster_monitoring::default"]
+I, [2018-07-10T03:53:02.364625 #21841]  INFO -- default-sairam-suse-12-sp3: Synchronizing Cookbooks:
+I, [2018-07-10T03:53:02.464555 #21841]  INFO -- default-sairam-suse-12-sp3:   - linuxad_auth (0.4.1)
+I, [2018-07-10T03:53:02.477560 #21841]  INFO -- default-sairam-suse-12-sp3:   - cms_sq_sap_hana_rr_cluster_monitoring (0.1.0)
+I, [2018-07-10T03:53:02.544727 #21841]  INFO -- default-sairam-suse-12-sp3:   - chef-client (10.0.5)
+I, [2018-07-10T03:53:02.565423 #21841]  INFO -- default-sairam-suse-12-sp3:   - cron (6.1.1)
+I, [2018-07-10T03:53:02.586669 #21841]  INFO -- default-sairam-suse-12-sp3:   - logrotate (2.2.0)
+I, [2018-07-10T03:53:02.586764 #21841]  INFO -- default-sairam-suse-12-sp3:   - fms-zabbix (0.3.4)
+I, [2018-07-10T03:53:02.587035 #21841]  INFO -- default-sairam-suse-12-sp3:   - windows (4.3.3)
+I, [2018-07-10T03:53:02.587189 #21841]  INFO -- default-sairam-suse-12-sp3: Installing Cookbook Gems:
+I, [2018-07-10T03:53:02.651036 #21841]  INFO -- default-sairam-suse-12-sp3: Compiling Cookbooks...
+I, [2018-07-10T03:53:02.823635 #21841]  INFO -- default-sairam-suse-12-sp3: Converging 16 resources
+I, [2018-07-10T03:53:02.824770 #21841]  INFO -- default-sairam-suse-12-sp3: Recipe: fms-zabbix::install_linux
+I, [2018-07-10T03:53:05.755869 #21841]  INFO -- default-sairam-suse-12-sp3:   * rpm_package[zabbix-agent] action install
+I, [2018-07-10T03:53:05.755969 #21841]  INFO -- default-sairam-suse-12-sp3:     - install version 2.2.21-1.1 of package zabbix-agent-2.2
+I, [2018-07-10T03:53:05.756213 #21841]  INFO -- default-sairam-suse-12-sp3:   * directory[/etc/zabbix/zabbix_agentd.d] action create
+I, [2018-07-10T03:53:05.756250 #21841]  INFO -- default-sairam-suse-12-sp3:     - create new directory /etc/zabbix/zabbix_agentd.d
+I, [2018-07-10T03:53:05.756276 #21841]  INFO -- default-sairam-suse-12-sp3:     - change mode from '' to '0755'
+I, [2018-07-10T03:53:05.756294 #21841]  INFO -- default-sairam-suse-12-sp3:     - change owner from '' to 'root'
+I, [2018-07-10T03:53:05.756311 #21841]  INFO -- default-sairam-suse-12-sp3:     - change group from '' to 'root'
+I, [2018-07-10T03:53:05.789345 #21841]  INFO -- default-sairam-suse-12-sp3:   * template[/etc/zabbix/zabbix-agentd.conf] action create
+I, [2018-07-10T03:53:05.789662 #21841]  INFO -- default-sairam-suse-12-sp3:     - update content in file /etc/zabbix/zabbix-agentd.conf from 960b7e to 78b717
+I, [2018-07-10T03:53:05.789883 #21841]  INFO -- default-sairam-suse-12-sp3:     --- /etc/zabbix/zabbix-agentd.conf	2017-12-30 04:57:56.000000000 +0530
+I, [2018-07-10T03:53:05.790133 #21841]  INFO -- default-sairam-suse-12-sp3:     +++ /etc/zabbix/.chef-zabbix-agentd20180710-4670-wpinhz.conf	2018-07-10 13:23:32.585253328 +0530
+I, [2018-07-10T03:53:05.793356 #21841]  INFO -- default-sairam-suse-12-sp3:     @@ -1,285 +1,17 @@
+I, [2018-07-10T03:53:05.793620 #21841]  INFO -- default-sairam-suse-12-sp3:     -# This is a config file for the Zabbix agent daemon (Unix)
+I, [2018-07-10T03:53:05.793870 #21841]  INFO -- default-sairam-suse-12-sp3:     -# To get more information about Zabbix, visit http://www.zabbix.com
+I, [2018-07-10T03:53:05.794073 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.794293 #21841]  INFO -- default-sairam-suse-12-sp3:     -############ GENERAL PARAMETERS #################
+I, [2018-07-10T03:53:05.794483 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.794691 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: PidFile
+I, [2018-07-10T03:53:05.794904 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Name of PID file.
+I, [2018-07-10T03:53:05.795122 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.795325 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.795510 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.795716 #21841]  INFO -- default-sairam-suse-12-sp3:     -PidFile=/run/zabbix/zabbix-agentd.pid
+I, [2018-07-10T03:53:05.795934 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.796169 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: LogFile
+I, [2018-07-10T03:53:05.796384 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Name of log file.
+I, [2018-07-10T03:53:05.796579 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	If not set, syslog is used.
+I, [2018-07-10T03:53:05.800523 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.800845 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.801041 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.801253 #21841]  INFO -- default-sairam-suse-12-sp3:     -# LogFile=
+I, [2018-07-10T03:53:05.801459 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.801666 #21841]  INFO -- default-sairam-suse-12-sp3:     -LogFile=/var/log/zabbix/zabbix-agentd.log
+I, [2018-07-10T03:53:05.801884 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.802082 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: LogFileSize
+I, [2018-07-10T03:53:05.802296 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Maximum size of log file in MB.
+I, [2018-07-10T03:53:05.802519 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	0 - disable automatic log rotation.
+I, [2018-07-10T03:53:05.802724 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.802988 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.803264 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 0-1024
+I, [2018-07-10T03:53:05.803507 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.803870 #21841]  INFO -- default-sairam-suse-12-sp3:     -# LogFileSize=1
+I, [2018-07-10T03:53:05.804208 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.804492 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: DebugLevel
+I, [2018-07-10T03:53:05.804721 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Specifies debug level
+I, [2018-07-10T03:53:05.804925 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	0 - no debug
+I, [2018-07-10T03:53:05.805274 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	1 - critical information
+I, [2018-07-10T03:53:05.805541 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	2 - error information
+I, [2018-07-10T03:53:05.805752 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	3 - warnings
+I, [2018-07-10T03:53:05.805971 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	4 - for debugging (produces lots of information)
+I, [2018-07-10T03:53:05.806207 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.806452 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.806661 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 0-4
+I, [2018-07-10T03:53:05.806848 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.807049 #21841]  INFO -- default-sairam-suse-12-sp3:     -# DebugLevel=3
+I, [2018-07-10T03:53:05.807258 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.807483 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: SourceIP
+I, [2018-07-10T03:53:05.807711 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Source IP address for outgoing connections.
+I, [2018-07-10T03:53:05.807919 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.808142 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.808337 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.808537 #21841]  INFO -- default-sairam-suse-12-sp3:     -# SourceIP=
+I, [2018-07-10T03:53:05.808723 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.809015 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: EnableRemoteCommands
+I, [2018-07-10T03:53:05.809329 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Whether remote commands from Zabbix server are allowed.
+I, [2018-07-10T03:53:05.809550 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	0 - not allowed
+I, [2018-07-10T03:53:05.809749 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	1 - allowed
+I, [2018-07-10T03:53:05.809932 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.810183 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.810375 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.810565 #21841]  INFO -- default-sairam-suse-12-sp3:     -# EnableRemoteCommands=0
+I, [2018-07-10T03:53:05.810770 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.810963 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: LogRemoteCommands
+I, [2018-07-10T03:53:05.814445 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Enable logging of executed shell commands as warnings.
+I, [2018-07-10T03:53:05.814852 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	0 - disabled
+I, [2018-07-10T03:53:05.815138 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	1 - enabled
+I, [2018-07-10T03:53:05.837790 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.837888 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.837927 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.837952 #21841]  INFO -- default-sairam-suse-12-sp3:     -# LogRemoteCommands=0
+I, [2018-07-10T03:53:05.837973 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.837993 #21841]  INFO -- default-sairam-suse-12-sp3:     -##### Passive checks related
+I, [2018-07-10T03:53:05.838012 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.838032 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: Server
+I, [2018-07-10T03:53:05.838051 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	List of comma delimited IP addresses (or hostnames) of Zabbix servers.
+I, [2018-07-10T03:53:05.838071 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Incoming connections will be accepted only from the hosts listed here.
+I, [2018-07-10T03:53:05.838092 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	If IPv6 support is enabled then '127.0.0.1', '::127.0.0.1', '::ffff:127.0.0.1' are treated equally.
+I, [2018-07-10T03:53:05.838130 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.838150 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.838169 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.838188 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Server=
+I, [2018-07-10T03:53:05.838207 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.838227 #21841]  INFO -- default-sairam-suse-12-sp3:     +PidFile=/var/run/zabbix/zabbix_agentd.pid
+I, [2018-07-10T03:53:05.838263 #21841]  INFO -- default-sairam-suse-12-sp3:     +LogFile=/var/log/zabbix/zabbix_agentd.log
+I, [2018-07-10T03:53:05.838297 #21841]  INFO -- default-sairam-suse-12-sp3:     +LogFileSize=0
+I, [2018-07-10T03:53:05.838319 #21841]  INFO -- default-sairam-suse-12-sp3:      Server=127.0.0.1
+I, [2018-07-10T03:53:05.838336 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.838362 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: ListenPort
+I, [2018-07-10T03:53:05.838382 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Agent will listen on this port for connections from the server.
+I, [2018-07-10T03:53:05.838399 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.838417 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.838436 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 1024-32767
+I, [2018-07-10T03:53:05.838453 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.838470 #21841]  INFO -- default-sairam-suse-12-sp3:     -# ListenPort=10050
+I, [2018-07-10T03:53:05.838486 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.838503 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: ListenIP
+I, [2018-07-10T03:53:05.838520 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	List of comma delimited IP addresses that the agent should listen on.
+I, [2018-07-10T03:53:05.838538 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	First IP address is sent to Zabbix server if connecting to it to retrieve list of active checks.
+I, [2018-07-10T03:53:05.838556 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.838573 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.838592 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.838625 #21841]  INFO -- default-sairam-suse-12-sp3:     -# ListenIP=0.0.0.0
+I, [2018-07-10T03:53:05.838660 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.838682 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: StartAgents
+I, [2018-07-10T03:53:05.838701 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Number of pre-forked instances of zabbix_agentd that process passive checks.
+I, [2018-07-10T03:53:05.838735 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	If set to 0, disables passive checks and the agent will not listen on any TCP port.
+I, [2018-07-10T03:53:05.838766 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.838785 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.838804 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 0-100
+I, [2018-07-10T03:53:05.838822 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.838839 #21841]  INFO -- default-sairam-suse-12-sp3:     -# StartAgents=3
+I, [2018-07-10T03:53:05.838855 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.838873 #21841]  INFO -- default-sairam-suse-12-sp3:     -##### Active checks related
+I, [2018-07-10T03:53:05.838889 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.838906 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: ServerActive
+I, [2018-07-10T03:53:05.838923 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	List of comma delimited IP:port (or hostname:port) pairs of Zabbix servers for active checks.
+I, [2018-07-10T03:53:05.838950 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	If port is not specified, default port is used.
+I, [2018-07-10T03:53:05.838977 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	IPv6 addresses must be enclosed in square brackets if port for that host is specified.
+I, [2018-07-10T03:53:05.839005 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	If port is not specified, square brackets for IPv6 addresses are optional.
+I, [2018-07-10T03:53:05.839034 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	If this parameter is not specified, active checks are disabled.
+I, [2018-07-10T03:53:05.839063 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Example: ServerActive=127.0.0.1:20051,zabbix.domain,[::1]:30051,::1,[12fc::1]
+I, [2018-07-10T03:53:05.839087 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.839123 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.839144 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.839161 #21841]  INFO -- default-sairam-suse-12-sp3:     -# ServerActive=
+I, [2018-07-10T03:53:05.839177 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.839194 #21841]  INFO -- default-sairam-suse-12-sp3:      ServerActive=127.0.0.1
+I, [2018-07-10T03:53:05.839210 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.839226 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: Hostname
+I, [2018-07-10T03:53:05.839242 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Unique, case sensitive hostname.
+I, [2018-07-10T03:53:05.839259 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Required for active checks and must match hostname as configured on the server.
+I, [2018-07-10T03:53:05.839276 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Value is acquired from HostnameItem if undefined.
+I, [2018-07-10T03:53:05.839293 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.839311 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.839339 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.839358 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Hostname=
+I, [2018-07-10T03:53:05.839373 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.839389 #21841]  INFO -- default-sairam-suse-12-sp3:     -Hostname=Zabbix server
+I, [2018-07-10T03:53:05.839405 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.839422 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: HostnameItem
+I, [2018-07-10T03:53:05.839438 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Item used for generating Hostname if it is undefined. Ignored if Hostname is defined.
+I, [2018-07-10T03:53:05.839456 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Does not support UserParameters or aliases.
+I, [2018-07-10T03:53:05.839473 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.839494 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.839512 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.839529 #21841]  INFO -- default-sairam-suse-12-sp3:     -# HostnameItem=system.hostname
+I, [2018-07-10T03:53:05.839544 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.839560 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: HostMetadata
+I, [2018-07-10T03:53:05.839576 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Optional parameter that defines host metadata.
+I, [2018-07-10T03:53:05.839594 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Host metadata is used at host auto-registration process.
+I, [2018-07-10T03:53:05.839611 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	An agent will issue an error and not start if the value is over limit of 255 characters.
+I, [2018-07-10T03:53:05.839628 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	If not defined, value will be acquired from HostMetadataItem.
+I, [2018-07-10T03:53:05.839644 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.839659 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.839675 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 0-255 characters
+I, [2018-07-10T03:53:05.839690 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.839704 #21841]  INFO -- default-sairam-suse-12-sp3:     -# HostMetadata=
+I, [2018-07-10T03:53:05.839727 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.839744 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: HostMetadataItem
+I, [2018-07-10T03:53:05.839759 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Optional parameter that defines an item used for getting host metadata.
+I, [2018-07-10T03:53:05.839778 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Host metadata is used at host auto-registration process.
+I, [2018-07-10T03:53:05.839796 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	During an auto-registration request an agent will log a warning message if
+I, [2018-07-10T03:53:05.839812 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	the value returned by specified item is over limit of 255 characters.
+I, [2018-07-10T03:53:05.839829 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	This option is only used when HostMetadata is not defined.
+I, [2018-07-10T03:53:05.839845 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.839860 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.839874 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.839890 #21841]  INFO -- default-sairam-suse-12-sp3:     -# HostMetadataItem=
+I, [2018-07-10T03:53:05.839904 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.839919 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: RefreshActiveChecks
+I, [2018-07-10T03:53:05.839934 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	How often list of active checks is refreshed, in seconds.
+I, [2018-07-10T03:53:05.839950 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.839964 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.839979 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 60-3600
+I, [2018-07-10T03:53:05.839994 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.840009 #21841]  INFO -- default-sairam-suse-12-sp3:     -# RefreshActiveChecks=120
+I, [2018-07-10T03:53:05.840023 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.840038 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: BufferSend
+I, [2018-07-10T03:53:05.840054 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Do not keep data longer than N seconds in buffer.
+I, [2018-07-10T03:53:05.840069 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.840087 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.840116 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 1-3600
+I, [2018-07-10T03:53:05.840133 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.841583 #21841]  INFO -- default-sairam-suse-12-sp3:     -# BufferSend=5
+I, [2018-07-10T03:53:05.841864 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.842087 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: BufferSize
+I, [2018-07-10T03:53:05.842335 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Maximum number of values in a memory buffer. The agent will send
+I, [2018-07-10T03:53:05.842568 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	all collected data to Zabbix Server or Proxy if the buffer is full.
+I, [2018-07-10T03:53:05.842772 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.842995 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.843223 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 2-65535
+I, [2018-07-10T03:53:05.843414 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.843603 #21841]  INFO -- default-sairam-suse-12-sp3:     -# BufferSize=100
+I, [2018-07-10T03:53:05.843785 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.843989 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: MaxLinesPerSecond
+I, [2018-07-10T03:53:05.844232 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Maximum number of new lines the agent will send per second to Zabbix Server
+I, [2018-07-10T03:53:05.844441 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	or Proxy processing 'log' and 'logrt' active checks.
+I, [2018-07-10T03:53:05.844660 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	The provided value will be overridden by the parameter 'maxlines',
+I, [2018-07-10T03:53:05.844868 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	provided in 'log' or 'logrt' item keys.
+I, [2018-07-10T03:53:05.845051 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.845258 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.845467 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 1-1000
+I, [2018-07-10T03:53:05.845658 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.845848 #21841]  INFO -- default-sairam-suse-12-sp3:     -# MaxLinesPerSecond=100
+I, [2018-07-10T03:53:05.846044 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.846274 #21841]  INFO -- default-sairam-suse-12-sp3:     -############ ADVANCED PARAMETERS #################
+I, [2018-07-10T03:53:05.846471 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.846663 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: Alias
+I, [2018-07-10T03:53:05.846894 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Sets an alias for an item key. It can be used to substitute long and complex item key with a smaller and simpler one.
+I, [2018-07-10T03:53:05.847324 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Multiple Alias parameters may be present. Multiple parameters with the same Alias key are not allowed.
+I, [2018-07-10T03:53:05.847548 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Different Alias keys may reference the same item key.
+I, [2018-07-10T03:53:05.847761 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	For example, to retrieve the ID of user 'zabbix':
+I, [2018-07-10T03:53:05.847966 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Alias=zabbix.userid:vfs.file.regexp[/etc/passwd,^zabbix:.:([0-9]+),,,,\1]
+I, [2018-07-10T03:53:05.848189 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Now shorthand key zabbix.userid may be used to retrieve data.
+I, [2018-07-10T03:53:05.848395 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Aliases can be used in HostMetadataItem but not in HostnameItem parameters.
+I, [2018-07-10T03:53:05.848594 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.848781 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.848964 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range:
+I, [2018-07-10T03:53:05.849161 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.849348 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.849536 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: Timeout
+I, [2018-07-10T03:53:05.849734 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Spend no more than Timeout seconds on processing
+I, [2018-07-10T03:53:05.849949 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.850182 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.850432 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 1-30
+I, [2018-07-10T03:53:05.850635 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.850830 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Timeout=3
+I, [2018-07-10T03:53:05.851013 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.851268 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: AllowRoot
+I, [2018-07-10T03:53:05.851505 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Allow the agent to run as 'root'. If disabled and the agent is started by 'root', the agent
+I, [2018-07-10T03:53:05.851732 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	will try to switch to user 'zabbix' instead. Has no effect if started under a regular user.
+I, [2018-07-10T03:53:05.851927 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	0 - do not allow
+I, [2018-07-10T03:53:05.852146 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	1 - allow
+I, [2018-07-10T03:53:05.852454 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.852654 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.852841 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.853040 #21841]  INFO -- default-sairam-suse-12-sp3:     -# AllowRoot=0
+I, [2018-07-10T03:53:05.853304 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.853557 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: Include
+I, [2018-07-10T03:53:05.853908 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	You may include individual files or all files in a directory in the configuration file.
+I, [2018-07-10T03:53:05.854290 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Installing Zabbix will create include directory in /usr/local/etc, unless modified during the compile time.
+I, [2018-07-10T03:53:05.854573 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.854869 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.855165 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.855462 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Include=
+I, [2018-07-10T03:53:05.855739 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.856064 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Include=/usr/local/etc/zabbix-agentd.userparams.conf
+I, [2018-07-10T03:53:05.878783 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Include=/usr/local/etc/zabbix-agentd.conf.d/
+I, [2018-07-10T03:53:05.879052 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.879299 #21841]  INFO -- default-sairam-suse-12-sp3:     -####### USER-DEFINED MONITORED PARAMETERS #######
+I, [2018-07-10T03:53:05.879494 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.879692 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: UnsafeUserParameters
+I, [2018-07-10T03:53:05.879897 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Allow all characters to be passed in arguments to user-defined parameters.
+I, [2018-07-10T03:53:05.880088 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	0 - do not allow
+I, [2018-07-10T03:53:05.880303 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	1 - allow
+I, [2018-07-10T03:53:05.880489 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.880679 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.880869 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Range: 0-1
+I, [2018-07-10T03:53:05.881051 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.881258 #21841]  INFO -- default-sairam-suse-12-sp3:     -# UnsafeUserParameters=0
+I, [2018-07-10T03:53:05.881447 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.881636 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: UserParameter
+I, [2018-07-10T03:53:05.881854 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	User-defined parameter to monitor. There can be several user-defined parameters.
+I, [2018-07-10T03:53:05.882051 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Format: UserParameter=<key>,<shell command>
+I, [2018-07-10T03:53:05.882276 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	See 'zabbix_agentd' directory for examples.
+I, [2018-07-10T03:53:05.882464 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.882651 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.882833 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.883311 #21841]  INFO -- default-sairam-suse-12-sp3:     -# UserParameter=
+I, [2018-07-10T03:53:05.883524 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.883727 #21841]  INFO -- default-sairam-suse-12-sp3:     -####### LOADABLE MODULES #######
+I, [2018-07-10T03:53:05.883961 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.884460 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: LoadModulePath
+I, [2018-07-10T03:53:05.884500 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Full path to location of agent modules.
+I, [2018-07-10T03:53:05.884524 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Default depends on compilation options.
+I, [2018-07-10T03:53:05.884542 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.884559 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.884575 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.884591 #21841]  INFO -- default-sairam-suse-12-sp3:     -# LoadModulePath=${libdir}/modules
+I, [2018-07-10T03:53:05.884606 #21841]  INFO -- default-sairam-suse-12-sp3:     -
+I, [2018-07-10T03:53:05.884621 #21841]  INFO -- default-sairam-suse-12-sp3:     -### Option: LoadModule
+I, [2018-07-10T03:53:05.884636 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Module to load at agent startup. Modules are used to extend functionality of the agent.
+I, [2018-07-10T03:53:05.884654 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	Format: LoadModule=<module.so>
+I, [2018-07-10T03:53:05.884673 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	The modules must be located in directory specified by LoadModulePath.
+I, [2018-07-10T03:53:05.884690 #21841]  INFO -- default-sairam-suse-12-sp3:     -#	It is allowed to include multiple LoadModule parameters.
+I, [2018-07-10T03:53:05.884712 #21841]  INFO -- default-sairam-suse-12-sp3:     -#
+I, [2018-07-10T03:53:05.884730 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Mandatory: no
+I, [2018-07-10T03:53:05.884744 #21841]  INFO -- default-sairam-suse-12-sp3:     -# Default:
+I, [2018-07-10T03:53:05.884759 #21841]  INFO -- default-sairam-suse-12-sp3:     -# LoadModule=
+I, [2018-07-10T03:53:05.884774 #21841]  INFO -- default-sairam-suse-12-sp3:     +Hostname=default-sairam-suse-12-sp3.imzcloud.ibmammsap.local
+I, [2018-07-10T03:53:05.884791 #21841]  INFO -- default-sairam-suse-12-sp3:     +Include=/etc/zabbix/zabbix_agentd.d/
+I, [2018-07-10T03:53:05.884806 #21841]  INFO -- default-sairam-suse-12-sp3:     +HostMetadataItem=system.uname  
+I, [2018-07-10T03:53:05.884830 #21841]  INFO -- default-sairam-suse-12-sp3:     +EnableRemoteCommands=1 
+I, [2018-07-10T03:53:05.884847 #21841]  INFO -- default-sairam-suse-12-sp3:     +Timeout=30
+I, [2018-07-10T03:53:05.884862 #21841]  INFO -- default-sairam-suse-12-sp3:     +# IP addresses of specified interface name
+I, [2018-07-10T03:53:05.884879 #21841]  INFO -- default-sairam-suse-12-sp3:     +UserParameter=ip.address[*],ip a | egrep "inet.*$1" | cut -f1 -d '/' | cut -d ' ' -f6
+I, [2018-07-10T03:53:05.884897 #21841]  INFO -- default-sairam-suse-12-sp3:     +# Host info
+I, [2018-07-10T03:53:05.884912 #21841]  INFO -- default-sairam-suse-12-sp3:     +UserParameter=data.center, echo "DAL09"
+I, [2018-07-10T03:53:05.884928 #21841]  INFO -- default-sairam-suse-12-sp3:     +UserParameter=cust.name, echo "Infrastructure Servers"
+I, [2018-07-10T03:53:05.884944 #21841]  INFO -- default-sairam-suse-12-sp3:     +UserParameter=cust.code, echo "chefzero://localhost:1"
+I, [2018-07-10T03:53:05.885565 #21841]  INFO -- default-sairam-suse-12-sp3:     - change mode from '0640' to '0644'
+I, [2018-07-10T03:53:05.885775 #21841]  INFO -- default-sairam-suse-12-sp3:     - change group from 'zabbix' to 'root'
+I, [2018-07-10T03:53:06.087471 #21841]  INFO -- default-sairam-suse-12-sp3:   * service[zabbix-agent] action enable
+I, [2018-07-10T03:53:06.087576 #21841]  INFO -- default-sairam-suse-12-sp3:     - enable service service[zabbix-agent]
+I, [2018-07-10T03:53:06.234650 #21841]  INFO -- default-sairam-suse-12-sp3:   * service[zabbix-agent] action start
+I, [2018-07-10T03:53:06.234753 #21841]  INFO -- default-sairam-suse-12-sp3:     - start service service[zabbix-agent]
+I, [2018-07-10T03:53:06.234796 #21841]  INFO -- default-sairam-suse-12-sp3: Recipe: fms-zabbix::install_plugins
+I, [2018-07-10T03:53:06.234819 #21841]  INFO -- default-sairam-suse-12-sp3:   * directory[/var/lib/zabbix] action create
+I, [2018-07-10T03:53:06.234838 #21841]  INFO -- default-sairam-suse-12-sp3:     - create new directory /var/lib/zabbix
+I, [2018-07-10T03:53:06.234855 #21841]  INFO -- default-sairam-suse-12-sp3:     - change mode from '' to '0755'
+I, [2018-07-10T03:53:06.234876 #21841]  INFO -- default-sairam-suse-12-sp3:     - change owner from '' to 'zabbix'
+I, [2018-07-10T03:53:06.234895 #21841]  INFO -- default-sairam-suse-12-sp3:     - change group from '' to 'zabbix'
+I, [2018-07-10T03:53:06.235148 #21841]  INFO -- default-sairam-suse-12-sp3:   * template[/var/lib/zabbix/check_rw_mounts.sh] action create
+I, [2018-07-10T03:53:06.237041 #21841]  INFO -- default-sairam-suse-12-sp3:     - create new file /var/lib/zabbix/check_rw_mounts.sh
+I, [2018-07-10T03:53:06.237809 #21841]  INFO -- default-sairam-suse-12-sp3:     - update content in file /var/lib/zabbix/check_rw_mounts.sh from none to f53430
+I, [2018-07-10T03:53:06.238674 #21841]  INFO -- default-sairam-suse-12-sp3:     --- /var/lib/zabbix/check_rw_mounts.sh	2018-07-10 13:23:33.057017345 +0530
+I, [2018-07-10T03:53:06.239742 #21841]  INFO -- default-sairam-suse-12-sp3:     +++ /var/lib/zabbix/.chef-check_rw_mounts20180710-4670-1ntc1o7.sh	2018-07-10 13:23:33.057017345 +0530
+I, [2018-07-10T03:53:06.240577 #21841]  INFO -- default-sairam-suse-12-sp3:     @@ -1 +1,21 @@
+I, [2018-07-10T03:53:06.243724 #21841]  INFO -- default-sairam-suse-12-sp3:     +#!/bin/bash
+I, [2018-07-10T03:53:06.243780 #21841]  INFO -- default-sairam-suse-12-sp3:     +
+I, [2018-07-10T03:53:06.243806 #21841]  INFO -- default-sairam-suse-12-sp3:     +filesystems=""
+I, [2018-07-10T03:53:06.243823 #21841]  INFO -- default-sairam-suse-12-sp3:     +
+I, [2018-07-10T03:53:06.243838 #21841]  INFO -- default-sairam-suse-12-sp3:     +for fs in 
+I, [2018-07-10T03:53:06.243860 #21841]  INFO -- default-sairam-suse-12-sp3:     +do
+I, [2018-07-10T03:53:06.243878 #21841]  INFO -- default-sairam-suse-12-sp3:     + timeout 300 touch ${fs}/testfile > /dev/null 2>&1
+I, [2018-07-10T03:53:06.243896 #21841]  INFO -- default-sairam-suse-12-sp3:     +    if [ $? -ne 0 ]; then
+I, [2018-07-10T03:53:06.243914 #21841]  INFO -- default-sairam-suse-12-sp3:     +      filesystems="$filesystems $fs"
+I, [2018-07-10T03:53:06.243947 #21841]  INFO -- default-sairam-suse-12-sp3:     +    fi
+I, [2018-07-10T03:53:06.243967 #21841]  INFO -- default-sairam-suse-12-sp3:     +    rm -f ${fs}/testfile
+I, [2018-07-10T03:53:06.243983 #21841]  INFO -- default-sairam-suse-12-sp3:     +done
+I, [2018-07-10T03:53:06.243997 #21841]  INFO -- default-sairam-suse-12-sp3:     +
+I, [2018-07-10T03:53:06.244020 #21841]  INFO -- default-sairam-suse-12-sp3:     +if [[ "$filesystems" == "" ]]; then
+I, [2018-07-10T03:53:06.244037 #21841]  INFO -- default-sairam-suse-12-sp3:     +  echo "OK"
+I, [2018-07-10T03:53:06.244052 #21841]  INFO -- default-sairam-suse-12-sp3:     +else
+I, [2018-07-10T03:53:06.244068 #21841]  INFO -- default-sairam-suse-12-sp3:     +  echo "CRITICAL | $filesystems filesystems are read-only"
+I, [2018-07-10T03:53:06.244089 #21841]  INFO -- default-sairam-suse-12-sp3:     +  exit 2
+I, [2018-07-10T03:53:06.244125 #21841]  INFO -- default-sairam-suse-12-sp3:     +fi
+I, [2018-07-10T03:53:06.244141 #21841]  INFO -- default-sairam-suse-12-sp3:     +
+I, [2018-07-10T03:53:06.244157 #21841]  INFO -- default-sairam-suse-12-sp3:     - change mode from '' to '0755'
+I, [2018-07-10T03:53:06.244179 #21841]  INFO -- default-sairam-suse-12-sp3:     - change owner from '' to 'root'
+I, [2018-07-10T03:53:06.244195 #21841]  INFO -- default-sairam-suse-12-sp3:     - change group from '' to 'root'
+I, [2018-07-10T03:53:06.244966 #21841]  INFO -- default-sairam-suse-12-sp3:   * cookbook_file[/var/lib/zabbix/bad_drives.sh] action create (skipped due to only_if)
+I, [2018-07-10T03:53:06.246083 #21841]  INFO -- default-sairam-suse-12-sp3:   * cookbook_file[/var/lib/zabbix/media_errors.sh] action create (skipped due to only_if)
+I, [2018-07-10T03:53:06.252052 #21841]  INFO -- default-sairam-suse-12-sp3:   * cookbook_file[/root/bmi-diag.sh] action create (skipped due to only_if)
+I, [2018-07-10T03:53:06.252313 #21841]  INFO -- default-sairam-suse-12-sp3: Recipe: cms_sq_sap_hana_rr_cluster_monitoring::default
+I, [2018-07-10T03:53:06.252591 #21841]  INFO -- default-sairam-suse-12-sp3:   * directory[/etc/zabbix/zabbix.conf.d] action create
+I, [2018-07-10T03:53:06.254869 #21841]  INFO -- default-sairam-suse-12-sp3:     - create new directory /etc/zabbix/zabbix.conf.d
+I, [2018-07-10T03:53:06.255158 #21841]  INFO -- default-sairam-suse-12-sp3:     - change mode from '' to '0755'
+I, [2018-07-10T03:53:06.255371 #21841]  INFO -- default-sairam-suse-12-sp3:     - change owner from '' to 'root'
+I, [2018-07-10T03:53:06.255618 #21841]  INFO -- default-sairam-suse-12-sp3:     - change group from '' to 'root'
+I, [2018-07-10T03:53:06.257421 #21841]  INFO -- default-sairam-suse-12-sp3:   * cookbook_file[/var/lib/zabbix/resource_script.sh] action create (skipped due to only_if)
+I, [2018-07-10T03:53:06.258939 #21841]  INFO -- default-sairam-suse-12-sp3:   * cookbook_file[/var/lib/zabbix/log_script.sh] action create (skipped due to only_if)
+I, [2018-07-10T03:53:06.271425 #21841]  INFO -- default-sairam-suse-12-sp3:   * template[/etc/zabbix/zabbix.conf.d/pacemaker.conf] action create (skipped due to only_if)
+I, [2018-07-10T03:53:06.271524 #21841]  INFO -- default-sairam-suse-12-sp3:   * file[/etc/zabbix/zabbix.conf.d/pacemaker.conf] action delete (up to date)
+I, [2018-07-10T03:53:06.271551 #21841]  INFO -- default-sairam-suse-12-sp3:   * file[/var/lib/zabbix/resource_script.sh] action delete (up to date)
+I, [2018-07-10T03:53:06.271570 #21841]  INFO -- default-sairam-suse-12-sp3:   * file[/var/lib/zabbix/log_script.sh] action delete (up to date)
+I, [2018-07-10T03:53:06.271839 #21841]  INFO -- default-sairam-suse-12-sp3: Recipe: fms-zabbix::install_linux
+I, [2018-07-10T03:53:06.389877 #21841]  INFO -- default-sairam-suse-12-sp3:   * service[zabbix-agent] action restart
+I, [2018-07-10T03:53:06.389975 #21841]  INFO -- default-sairam-suse-12-sp3:     - restart service service[zabbix-agent]
+I, [2018-07-10T03:53:06.503782 #21841]  INFO -- default-sairam-suse-12-sp3: 
+I, [2018-07-10T03:53:06.504069 #21841]  INFO -- default-sairam-suse-12-sp3: Running handlers:
+I, [2018-07-10T03:53:06.504293 #21841]  INFO -- default-sairam-suse-12-sp3: Running handlers complete
+I, [2018-07-10T03:53:06.504549 #21841]  INFO -- default-sairam-suse-12-sp3: Chef Client finished, 9/18 resources updated in 07 seconds
+I, [2018-07-10T03:53:06.530661 #21841]  INFO -- default-sairam-suse-12-sp3: Downloading files from <default-sairam-suse-12-sp3>
+I, [2018-07-10T03:53:06.541371 #21841]  INFO -- default-sairam-suse-12-sp3: Finished converging <default-sairam-suse-12-sp3> (0m45.60s).
+I, [2018-07-10T03:53:06.541505 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Setting up <default-sairam-suse-12-sp3>...
+I, [2018-07-10T03:53:06.542179 #21841]  INFO -- default-sairam-suse-12-sp3: Finished setting up <default-sairam-suse-12-sp3> (0m0.00s).
+I, [2018-07-10T03:53:06.542369 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Verifying <default-sairam-suse-12-sp3>...
+I, [2018-07-10T03:53:08.104740 #21841]  INFO -- default-sairam-suse-12-sp3: Loaded tests from {:path=>".home.yakshi.cmsrepo.cookbooks.cms_sq_sap_hana_rr_cluster_monitoring.test.integration.default"} 
+I, [2018-07-10T03:53:09.603184 #21841]  INFO -- default-sairam-suse-12-sp3: Finished verifying <default-sairam-suse-12-sp3> (0m3.06s).
+I, [2018-07-10T03:53:09.603657 #21841]  INFO -- default-sairam-suse-12-sp3: -----> Destroying <default-sairam-suse-12-sp3>...
+I, [2018-07-10T03:53:12.271564 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Forcing shutdown of VM...
+I, [2018-07-10T03:53:13.724779 #21841]  INFO -- default-sairam-suse-12-sp3: ==> default: Destroying VM and associated drives...
+I, [2018-07-10T03:53:14.180312 #21841]  INFO -- default-sairam-suse-12-sp3: Vagrant instance <default-sairam-suse-12-sp3> destroyed.
+I, [2018-07-10T03:53:14.181189 #21841]  INFO -- default-sairam-suse-12-sp3: Finished destroying <default-sairam-suse-12-sp3> (0m4.58s).
+I, [2018-07-10T03:53:14.181477 #21841]  INFO -- default-sairam-suse-12-sp3: Finished testing <default-sairam-suse-12-sp3> (2m39.19s).

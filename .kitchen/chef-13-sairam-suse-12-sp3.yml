@@ -1,0 +1,7 @@
+---
+hostname: 127.0.0.1
+port: '2202'
+username: vagrant
+ssh_key: "/home/yakshi/cmsrepo/cookbooks/cms_sq_sap_hana_rr_cluster_monitoring/.kitchen/kitchen-vagrant/chef-13-sairam-suse-12-sp3/.vagrant/machines/default/virtualbox/private_key"
+last_action: create
+last_error: Kitchen::ActionFailed

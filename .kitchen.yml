@@ -1,0 +1,34 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_zero
+  # You may wish to disable always updating cookbooks in CI or other testing environments.
+  # For example:
+  #   always_update_cookbooks: <%= !ENV['CI'] %>
+  always_update_cookbooks: true
+
+verifier:
+  name: inspec
+  attributes:
+    HAcluster: 'false'
+
+platforms:
+  - name: sairam/suse_12_sp3
+
+suites:
+  - name: default
+    driver:
+      require_chef_omnibus: 13
+    run_list:
+      - recipe[fms-zabbix::default]
+      - recipe[cms_sq_sap_hana_rr_cluster_monitoring::default]
+    verifier:
+      inspec_tests:
+        - test/integration/default
+    attributes:
+      authentication:
+        default_realm: 'IMZCLOUD.IBMAMMSAP.LOCAL'
+        dc_hostname: 'dal09ammadc001.example.com'
+        ads_org_unit: 'Infrastructure Servers'
